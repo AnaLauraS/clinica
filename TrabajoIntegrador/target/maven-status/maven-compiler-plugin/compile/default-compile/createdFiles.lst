@@ -1,0 +1,17 @@
+com\example\TrabajoIntegrador\service\TurnoService.class
+com\example\TrabajoIntegrador\controller\OdontologoController.class
+com\example\TrabajoIntegrador\TrabajoIntegradorApplication$1.class
+com\example\TrabajoIntegrador\model\Turno.class
+com\example\TrabajoIntegrador\exceptions\GlobalExceptions.class
+com\example\TrabajoIntegrador\repository\OdontologoRepository.class
+com\example\TrabajoIntegrador\service\OdontologoService.class
+com\example\TrabajoIntegrador\TrabajoIntegradorApplication.class
+com\example\TrabajoIntegrador\service\PacienteService.class
+com\example\TrabajoIntegrador\model\Paciente.class
+com\example\TrabajoIntegrador\controller\TurnoController.class
+com\example\TrabajoIntegrador\exceptions\NotFound.class
+com\example\TrabajoIntegrador\model\Odontologo.class
+com\example\TrabajoIntegrador\repository\TurnoRepository.class
+com\example\TrabajoIntegrador\controller\PacienteController.class
+com\example\TrabajoIntegrador\repository\PacienteRepository.class
+com\example\TrabajoIntegrador\service\Service.class
