@@ -32,32 +32,4 @@ public class TrabajoIntegradorApplication {
 			}
 		};
 	}
-
-	@Bean
-	CommandLineRunner start(OdontologoRepository or){
-		return args -> {
-			Odontologo o1  = new Odontologo("Perez", "Jose", "m01");
-			Odontologo o2  = new Odontologo("Calix", "Maria", "m02");
-			or.save(o1);
-			or.save(o2);
-		};
-	}
-
-	@Bean
-	CommandLineRunner start2(PacienteRepository or){
-		return args -> {
-			Paciente o1  = new Paciente("Benitez", "Esteban", "calle1", 123435, LocalDate.now());
-			or.save(o1);
-		};
-	}
-
-	@Bean
-	CommandLineRunner start3(TurnoRepository or){
-		return args -> {
-			Paciente p1 = new Paciente("Sic", "Ana", "calle2", 123435,LocalDate.now());
-			Odontologo d1 = new Odontologo("Luks", "Tefi", "m03");
-			Turno o1  = new Turno(d1,p1, LocalDateTime.of(2022,8,10,15,46));
-			or.save(o1);
-		};
-	}
 }
