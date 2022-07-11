@@ -5,8 +5,6 @@ import com.example.TrabajoIntegrador.model.Paciente;
 import com.example.TrabajoIntegrador.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.lang.annotation.Annotation;
 import java.util.List;
 import java.util.Optional;
 

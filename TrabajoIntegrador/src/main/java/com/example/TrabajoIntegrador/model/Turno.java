@@ -17,9 +17,7 @@ public class Turno {
     @JoinColumn(name = "id_pac")
     private Paciente paciente;
     @Column
-    //@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss", iso = DateTimeFormat.ISO.DATE_TIME)
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
-    //@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private LocalDateTime diaHora;
 
     public Turno(Long id, Odontologo odontologo, Paciente paciente, LocalDateTime diaHora) {

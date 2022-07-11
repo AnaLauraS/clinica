@@ -17,7 +17,8 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@RunWith(SpringRunner.class)
+// NOTA: comenté el @RunWith porque no me gustaba que el JUnit Vintage se mostrara en rojo. Los test funcionan con o sin esa notación.
+//@RunWith(SpringRunner.class)
 @SpringBootTest
 public class TurnoServiceTest {
     @Autowired

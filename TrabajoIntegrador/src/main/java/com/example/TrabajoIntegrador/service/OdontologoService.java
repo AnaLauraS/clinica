@@ -5,8 +5,6 @@ import com.example.TrabajoIntegrador.model.Odontologo;
 import com.example.TrabajoIntegrador.repository.OdontologoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.lang.annotation.Annotation;
 import java.util.List;
 import java.util.Optional;
 
